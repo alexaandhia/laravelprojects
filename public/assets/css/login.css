@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../images/gedung.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.box {
+    display: flex;
+    margin-top: -100px;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+
+}
+.container {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+}
+span {
+    color: white;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+header {
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding:  10px 0 10px 0;
+}
+.input-field {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.input {
+    height: 55px;
+    width: 380px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: #fff;
+    margin-left: -10px;
+    padding: 0 0 0 80px;
+    background: rgba(255,255,255,0.3);
+}
+i {
+    position: relative;
+    top: -37px;
+    margin-right: 380px;
+    font-size: 18px;
+    color: #fff;
+
+}
+i:hover {
+    color: #8acbea;
+}
+::-webkit-input-placeholder {
+    color: #fff;
+    font-size: 15px;
+
+}
+
+.submit {
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    height: 55px;
+    outline: none;
+    width: 450px;
+    background: rgba(255,255,255,0.7);
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 30px;
+}
+.submit:hover {
+    box-shadow: 1px 5px 7 1px rgba(0,0,0,0.2);
+    background-color: #8acbea;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 15px;
+    color: #fff;
+    margin-top: 20px;
+}
+.left{
+    display: flex;
+}
+label a{
+    color: #fff;
+    text-decoration: none;
+}
+.pesan {
+    background: rgba(255,255,255,0.4);
+    border-radius: 15px;
+    height: 100px;
+    margin: 40px;
+
+
+}
+.pesan .text p {
+    text-align: left;
+    padding-top: 20px;
+    margin-left: 80px;
+    color: #fff;
+    
+}
+.pesan .text i {
+    color: #8acbea;
+    position: relative;
+    font-size: 35px;
+    margin-left: 20px;
+}
+
+@media (max-width: 991px) {
+    
+}
